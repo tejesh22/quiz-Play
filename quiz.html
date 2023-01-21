@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Play</title>
+        <link rel="stylesheet" href="/static/quizstyle.css">
+        <style>
+            h2 {
+                padding-top: 5%;
+            }
+            input {
+                font-size: 19px;
+                font-weight: 500;
+            }
+        </style>
+    </head>
+    <body style="background-color: #c2e9fb;">
+        <center><h1><i>Quiz Play!</i></h1></center>
+        <center><h2>Enter your details</h2></center>
+        <form action="/" method="POST">
+        <div class="details">
+        &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter your name" size="38" name="name" required><br>
+        <br>
+        &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter you email address" size="38" name="email" required>
+        <br>
+        <hr>
+        <br>
+        <input type="button" class="strt_btn" onclick="parent.location='quiz1.html'" value="Start Quiz">
+        </div>
+    </form>
+    </body>
+</html>
